@@ -1,0 +1,143 @@
+/*.button-link {*/
+/*    display: block; !* Делаем элемент блочным *!*/
+/*    width: 100%;    !* Задаем ширину 100% *!*/
+/*    padding: 10px 20px;           !* Отступы внутри кнопки *!*/
+/*    background-color: #007bff;    !* Цвет фона *!*/
+/*    color: white;                 !* Цвет текста *!*/
+/*    text-decoration: none;        !* Убираем подчеркивание *!*/
+/*    border-radius: 5px;           !* Скругление углов *!*/
+/*    cursor: pointer;              !* Курсор в виде руки *!*/
+/*    font-size: 16px;              !* Размер шрифта *!*/
+/*    transition: 0.3s;             !* Плавные переходы *!*/
+/*}*/
+
+/*.button-link:hover {*/
+/*    background-color: #0056b3;    !* Цвет при наведении *!*/
+/*}*/
+
+/*.button-link:active {*/
+/*    transform: translateY(2px);    !* Эффект нажатия *!*/
+/*}*/
+.btn-prof {
+    display: block;
+    width: 100%;
+    padding: 5px 1px ;
+    color: white; /* Цвет текста для неактивной кнопки */
+    text-decoration: none;
+    border: 0;     /* Добавляем границу */
+    cursor: pointer;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: 0.3s;
+    background-color: transparent;
+
+    &:hover {
+        background-color: rgba(255,255,255,0.1);
+        transform: translateY(-1px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+
+}
+.dropdown-item:hover {
+   background-color: black;
+}
+.form-button{
+    display: block;
+    width: 40%;
+    padding: 5px 5px;
+    color: white; /* Цвет текста для неактивной кнопки */
+    background-color: #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none; /* Убираем рамку */
+
+}
+/* Общие стили при наведении */
+.form-button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+/* Эффект нажатия */
+.form-button:active {
+    transform: translateY(2px);
+}
+
+/* Базовый стиль для всех кнопок */
+.button-link {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    color: white; /* Цвет текста для неактивной кнопки */
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+/* Стиль для активной кнопки */
+.button-link.active {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Общие стили при наведении */
+.button-link:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Эффект нажатия */
+.button-link:active {
+    transform: translateY(2px);
+}
+
+/* Дополнительные стили для неактивной кнопки при наведении */
+.button-link:not(.active):hover {
+    background-color: rgba(0, 123, 255, 0.25); /* Легкий фон при наведении */
+}
+.margin-top {
+    margin: 150px 0 0 0; /* верх, право, низ, лево */
+}
+.product-s{
+    margin: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.card-product{
+    background-color: #f6f6f6;
+    margin-bottom: 0;
+}
+.card-hr{
+    margin-top: 0;
+}
+.row1_g-5{
+    --bs-gutter-x: 1rem; /* вместо 1.25rem */
+    --bs-gutter-y: 1rem; /* вместо 1.25rem */
+}
+.fixed-side {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 300px; /* Ширина панели */
+    height: 100%;
+}
+.icon-menu{
+   filter: invert(100%);
+}
+.container .col-2 {
+    text-align: left !important;
+}
+.logo-client{
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+
+}
+.down-pagination {
+    padding: 10px 20px;
+}
